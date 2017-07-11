@@ -1,0 +1,17 @@
+{ "albums": [{
+    "title": "Era Vulgaris",
+    "artist": "Queens of the Stone Age",
+    "description": "this album rules",
+    "id": "1"
+    }, {
+    "title": "In the Nightside Eclipse",
+    "artist": "Emperor",
+    "description": "The quintessential genre defining record of the Norwegian second wave of black metal",
+    "id": "2"
+      }, {
+    "title": "Liquid Swords",
+    "artist": "GZA",
+    "description": "GZA's debut solo album following the release of 36 Chambers by Wu-Tang Clan",
+    "id": "3"
+  }]
+}
