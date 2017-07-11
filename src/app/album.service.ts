@@ -6,10 +6,12 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 @Injectable()
 export class AlbumService {
   albums: FirebaseListObservable<any[]>;
-  constructor() { }
+  constructor(private database: AngularFireDatabase) {
+    this.albums = database.list('albums');
+   }
 
   getAlbums() {
-    return ALBUMS;
+    return this.albums;
   }
 
   getAlbumById(albumId: number){
